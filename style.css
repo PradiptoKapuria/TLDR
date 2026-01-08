@@ -1,0 +1,118 @@
+nav {
+    width: 1600px;
+    background: #140101;
+    height: 6500px;
+    position: relative;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.circle1 {
+    position: absolute;
+    top: -607px;
+    left: -442px;
+    width: 1269px;
+    height: 1189px;
+    border-radius: 50%;
+    background: #140101;
+    background: linear-gradient(91deg, rgba(20, 1, 1, 1) 52%, rgba(82, 0, 0, 1) 100%);
+}
+
+.circle2 {
+
+    position: absolute;
+    top: 890px;
+    left: 566px;
+    width: 55px;
+    height: 55px;
+    border-radius: 50%;
+    background: linear-gradient(60deg,rgba(17, 0, 23, 1) 39%, rgba(82, 0, 0, 1) 78%);
+    box-shadow: -1px -3px 31px 7px rgba(78, 7, 7, 0.75);
+    -webkit-box-shadow: -1px -3px 31px 7px rgba(78, 7, 7, 0.75);
+    -moz-box-shadow: -1px -3px 31px 7px rgba(78, 7, 7, 0.75);
+}
+.circle3 {
+
+    position: absolute;
+    top: 1067px;
+    left: 415px;
+    width: 125px;
+    height: 125px;
+    border-radius: 50%;
+    background: linear-gradient(60deg,rgba(17, 0, 23, 1) 39%, rgba(82, 0, 0, 1) 78%);
+    box-shadow: -1px -3px 54px 24px rgba(78,7,7,0.75);
+-webkit-box-shadow: -1px -3px 54px 24px rgba(78,7,7,0.75);
+-moz-box-shadow: -1px -3px 54px 24px rgba(78,7,7,0.75);
+}
+.circle4{
+    position: absolute;
+    top: 1300px;
+    left: 509px;
+    width: 550px;
+    height: 550px;
+    border-radius: 50%;
+    background: linear-gradient(91deg, rgba(20, 1, 1, 1) 52%, rgba(82, 0, 0, 1) 100%);
+    
+
+}
+.circle5{
+    position: absolute;
+    top: -323px;
+    left: 1243px;
+    width: 550px;
+    height: 550px;
+    border-radius: 50%;
+    background: linear-gradient(60deg,rgba(82, 0, 0, 1) 9%, rgba(17, 0, 23, 1) 38%);
+}
+.circle6{
+    position: absolute;
+    top: 765px;
+    left: -405px;
+    width: 900px;
+    height: 900px;
+    border-radius: 50%;
+    background: linear-gradient(178deg,rgba(82, 0, 0, 1) 9%, rgba(20, 1, 1, 1) 32%);
+
+}
+.circle7{
+    position: absolute;
+    top: 1524px;
+    left: -405px;
+    width: 1000px;
+    height: 1000px;
+    border-radius: 50%;
+    background: linear-gradient(90deg,rgba(82, 0, 0, 1) 9%, rgba(20, 1, 1, 1) 32%);
+
+}
+.lg{
+    position: relative;
+    left:200px;
+    display: flex;
+    column-gap: 5px;
+}
+
+.lg img{
+    width: 50px;
+    margin-right: 10px;
+    
+}
+.lg .text-lg h1{
+    color: rgb(187, 190, 190);
+    font-size: 20px;
+    font-family: "Poppins", sans-serif;
+    line-height: 12px;
+}
+.lg .text-lg p{
+    color: rgb(187, 190, 190);
+    font-size: 15px;
+    font-family: "Poppins", sans-serif;
+    font-weight: 250;
+}
+.lg .text-lg{
+    position: absolute;
+    top: 11.5px;
+    left: 62px;
+}
